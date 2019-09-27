@@ -97,7 +97,8 @@ public class ColeccionVentasTest {
         ColeccionVentas instance = new ColeccionVentas();
         int expResult = 1000;
         int result = instance.subTotal(v);
-        assertEquals(expResult, result);
+        //assertEquals(expResult, result);
+        assertTrue(result == expResult);
     }
 
 }
